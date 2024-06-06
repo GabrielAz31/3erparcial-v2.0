@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+ int main()
+{
+    int num;
+    cout<<"hasta que numero quieres contar de 5 en 5"<<endl;
+    cin>>num;
+	
+	for (int i=5; i<=num; i+=5){
+		cout<<"\n"<<i;
+	}
+	return 0;
+}
+  
