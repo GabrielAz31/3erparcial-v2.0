@@ -1,0 +1,32 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int numcart;
+    std::cout<<"ingrese el numero de una carta española \n";
+    cin>>numcart;
+    if (numcart==1){
+    cout<<"As";
+    }
+    else if (numcart==10)
+    {
+    cout<<"Sota";
+    }
+    else if(numcart==11)
+    {
+    cout<<"caballo";
+    }
+    else if(numcart==12)
+    {
+    cout<<"Rey";
+        }
+    else if(numcart==2,3,4,5,6,7,8,9)
+    {
+    cout<<"esta carta no es ninguna figura ni un As \n";
+    }
+    else if (numcart>12)
+    {
+    cout<<"esta carta no pertenece a la baraja española \n";
+    }
+    return 0;
+}
