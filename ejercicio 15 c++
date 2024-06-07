@@ -1,0 +1,21 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+    int edad,entrada,ndescuento,adescuento;
+    entrada=70;
+    cout<<"dime tu edad: ";
+    cin>>edad;
+    if(edad<=5){
+        cout<<"tiene un descuento de %60 \n";
+        ndescuento=entrada*.60;
+        cout<<"la entrada con el descuento seria \n"<<ndescuento;
+    }else if(edad>=60){
+        cout<<"tiene un descuento del %55 \n";
+        adescuento=entrada*0.55;
+    cout<<"la entrada con el descuento seria \n"<<adescuento;
+    }else if (edad=6){
+        cout<<"la entrada seria de: "<<entrada;
+    }
+    return 0;
+}
