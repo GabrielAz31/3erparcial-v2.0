@@ -1,0 +1,42 @@
+#include <iostream>
+using namespace std;
+
+// Función para calcular el factorial de un número de forma iterativa
+unsigned long long factorial(int n) {
+    unsigned long long resultado = 1;
+    for (int i = 1; i <= n; ++i) {
+        resultado *= i;
+    }
+    return resultado;
+}
+
+int main() {
+int n1,n2,n3;
+cout<<"ingresa el primer número natural";
+cin>>n1;
+cout<<"ingresa dos números decimales";
+cin>>n2>>n3;
+//b) Calcular y mostrar el factorial de cada número
+    if (n1 < 0) {
+        cout << "El factorial no está definido para el primer número negativo." << endl;
+    } else {
+        unsigned long long resultado1 = factorial(n1);
+        cout << "El factorial de " << n1 << " es " << resultado1 << endl;
+    }
+
+    if (n2 < 0) {
+        cout << "El factorial no está definido para el segundo número negativo." << endl;
+    } else {
+        unsigned long long resultado2 = factorial(n2);
+        cout << "El factorial de " << n2 << " es " << resultado2 << endl;
+    }
+
+    if (n3 < 0) {
+        cout << "El factorial no está definido para el tercer número negativo." << endl;
+    } else {
+        unsigned long long resultado3 = factorial(n3);
+        cout << "El factorial de " << n3 << " es " << resultado3 << endl;
+    }
+
+    return 0;
+}
