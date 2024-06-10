@@ -1,6 +1,7 @@
 #include <stdio.h>
-
-// Declaración de funciones
+// equipo 7 
+//fecha de entrega 10/06/2024
+// Declaración de funciones si se pudo :)
 float calcularMax(float x, float y);
 float calcularNota(float p1, float p2, float notaExamen);
 
